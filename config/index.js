@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '/mosuswalks.github.io',
     proxyTable: {},
 
     // Various Dev Server settings
