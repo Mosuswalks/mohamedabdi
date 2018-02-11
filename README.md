@@ -1,6 +1,6 @@
 # mosuswalks.github.io
 
-> Portfolio Page for Github Pages
+> Portfolio Page for GitHub Pages
 
 ## Build Setup
 
