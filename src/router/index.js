@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import LandingLoad from '@/components/LandingLoad'
+import Main from '@/components/Main'
 
 Vue.use(Router)
 
@@ -9,7 +10,13 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld
+      component: LandingLoad
+
+    },
+    {
+      path: '/main',
+      name: 'Main',
+      component: Main
     }
   ]
 })
