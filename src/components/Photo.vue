@@ -2,24 +2,21 @@
     <div class="photo">
         <transition appear name="fade" mode="out-in">
         <img src="../assets/placeholder-face-big.png" alt="Girl in a jacket">
-        
         </transition>
     </div>
 
 </template>
+
 <script>
-
-
 export default {
   name: 'Photo',
 
-  components: {
-      
-    },
+  components: {   
+},
 
   data () {
     return {
-      fullname: "Mohamed Abdi"
+      fullname: 'Mohamed Abdi'
     }
   }
 }

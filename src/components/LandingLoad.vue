@@ -1,5 +1,4 @@
 <template>
-  
   <div>
     <transition appear name="fade" mode="out-in">
       <atom-spinner id="spinner"
@@ -9,7 +8,6 @@
       />
       </transition>
     </div>
-
 </template>
 
 <script>
@@ -21,11 +19,10 @@ export default {
 
   components: {
     AtomSpinner
-    },
+},
 
   data () {
-    return {
-      
+    return {    
     }
   }
 }
