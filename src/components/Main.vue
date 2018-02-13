@@ -1,4 +1,5 @@
 <template>
+
     <div class="container">
         <photo>
         </photo>
@@ -7,23 +8,22 @@
         </transition>
         <hr id="line">
         <h3 class="subtitle">{{ role }}</h3>
-        <div class="columns">
-        <p class="column is-four-fifths">This is a test of things to come </p>
-        <p class="column">This is a test of things to come </p>
-        <p class="column">This is a test of things to come </p>
-        </div>
+        <tabs>
+        </tabs>
     </div>
 
 </template>
 <script>
 
 import Photo from '@/components/Photo'
+import Tabs from '@/components/Tabs'
 
 export default {
   name: 'Main',
 
   components: {
-      Photo
+      Photo,
+      Tabs
     },
 
   data () {
@@ -36,21 +36,22 @@ export default {
 </script>
 <style>
 
-.title{
-    padding-top: 5%;
-    color: #fff;
-    font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.title {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-#line{
-    display: block;
-    margin-left: 25%;
-    background-color: #7AB55C;
-    width: 50%;
-    height: 1px;
+#line {
+  display: block;
+  margin-left: 25%;
+  background-color: #7AB55C;
+  width: 50%;
+  height: 1px;
 }
+
 
 .fade-enter-active, .fade-leave-active {
   transition: opacity 4s;

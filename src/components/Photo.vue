@@ -1,7 +1,8 @@
 <template>
+
     <div class="photo">
         <transition appear name="fade" mode="out-in">
-        <img src="../assets/placeholder-face-big.png" alt="Girl in a jacket">
+        <img src="../assets/faceshot.png" alt="Girl in a jacket">
         </transition>
     </div>
 
@@ -24,6 +25,14 @@ export default {
 <style>
 .photo{
     margin-top: 60px;
+}
+
+img{
+  border-radius: 50%;
+  height: 300px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #7AB55C;
 }
 
 .fade-enter-active, .fade-leave-active {

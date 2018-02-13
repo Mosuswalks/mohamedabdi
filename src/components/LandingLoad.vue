@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class=" ">
     <transition appear name="fade" mode="out-in">
       <atom-spinner id="spinner"
             :animation-duration="1500"
