@@ -60,5 +60,8 @@ export default{
 }
 </script>
 <style>
+container{
+    background-color: white;
+}
 
 </style>
