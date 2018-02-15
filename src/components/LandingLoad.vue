@@ -1,5 +1,5 @@
 <template>
-  <div class=" ">
+  <div class="container">
     <transition appear name="fade" mode="out-in">
       <atom-spinner id="spinner"
             :animation-duration="1500"
@@ -31,8 +31,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #spinner{
-  margin-left: 45%;
-  margin-top: 20%;
+  margin: 0 auto;
+  margin-top: 350px;
 }
 
 .fade-enter-active, .fade-leave-active {

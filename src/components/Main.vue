@@ -1,17 +1,17 @@
 <template>
 
-    <div class="container">
+    <div class="container main">
         <photo>
         </photo>
         <transition appear name="fade" mode="out-in">
         <h1 class="title">{{ fullname }}</h1>
         </transition>
-        <hr id="line">
+        
         <h3 class="subtitle">{{ role }}</h3>
+        <hr id="line">
         <tabs>
         </tabs>
     </div>
-
 </template>
 <script>
 
@@ -43,12 +43,13 @@ export default {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.subtitle{
+  color: #fff;
+}
 #line {
   display: block;
-  margin-left: 25%;
   background-color: #7AB55C;
-  width: 50%;
+  width: 100%;
   height: 1px;
 }
 
