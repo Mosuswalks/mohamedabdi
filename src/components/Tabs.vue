@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="columns about">
-            <div class="column is-half">
+            <div class="column is-two-fifths resume">
             <h1 class="title">About</h1>
             </div>
             <div class="column is-one-third">
